@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <label for="">Readonly:</label>
+        <input type="text" readonly value="Muhammad_Habab" /><br>
+
+        <label for="">Username:</label>
+        <input type="username" /><br>
+
+        <label for="">Email:</label>
+        <input type="email" /><br>
+
+        <label for="">Password:</label>
+        <input type="password" minlength="5" maxlength="8" required/><br>
+        
+        <!-- radio buttons -->
+        <label for="">Gender:</label>
+        <input name="gender" value="Male" type="radio" > Male
+        <input name="gender" value="Female" type="radio" >Female<br>
+
+        <!-- checkBox -->
+        <label for="">Languages:</label><br>
+        <input type="checkbox">Python
+        <input type="checkbox">JavaScript
+        <input type="checkbox">C++
+        <input type="checkbox">Java<br>
+
+        <!-- button not work sme as submit -->
+        <input type="button"value="Login">
+        <input type="reset" >
+        <button>Test2</button>
+
+        <!-- submit button -->
+        <input type="submit"> <br>
+
+        <!-- select is used to create a dropdown list for choosing an option for example many choices -->
+         <label for="">Countries:</label>
+         <select name="country" id="">
+            <option value="Pak">Pakistan</option>
+            <option value="Ind">India</option>
+            <option value="Us">USA</option>
+            <option value="Cn">Canada</option>
+            <option value="tr">Turkey</option>
+            <option value="G">Germany</option>
+            <option value="F">France</option>
+         </select><br>
+
+         <!-- option groups is used to group options together -->
+         <select name="Country/city" id="">
+            <optgroup label="Pakistan">
+                <option value="Karachi">Karachi</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Peshawar">Peshawar</option>
+            </optgroup>
+            <optgroup label="India">
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Chennai">Chennai</option>
+            </optgroup>
+         </select><br>
+
+        <!--Date and time inputs is used to create input fields for dates and times -->
+        <input type="date" name="date" id="date"> <br>
+        <input type="datetime-local" name="dateandtime" id="dateandtime"> <br>
+        <input type="month" name="month" id="month"> <br>
+        <input type="week" name="week" id="week"> <br>
+
+        <!-- color input is used to create a color picker -->
+         <input type="color" name="" id=""><br>
+
+        <!-- number input is used to create an input field for numbers -->
+         <input type="number" name="number" id="number"><br>
+        
+         <!-- search input is used to create a search field -->
+          <input type="search" name="search" id="search"><br>
+
+
+      
+    </form>
+    
+</body>
+</html>
