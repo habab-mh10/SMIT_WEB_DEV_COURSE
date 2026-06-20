@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- file upload is used to upload files to the server or image is uploaded -->
+    <label for="file">Uploade one Profile Image</label> <br>
+    <input type="file"  name="file" id="file"><br>
+    <!-- multiple file upload is allowed by adding the 'multiple' attribute -->
+    <label for="file">Uploade multiple Profile Images</label> <br>
+    <input type="file"  name="file" id="file" multiple><br>
+
+    <!-- data list is used to provide a list of predefined options for an input field -->
+     <label for="text">Choose your browser from the list:</label>
+    <input list="browsers" name="browser" type="text" id="text">
+    <datalist id="browsers">
+        <option value="Google Chrome">
+        <option value="Mozilla Firefox">
+        <option value="Microsoft Edge">
+        <option value="Safari">
+        <option value="Opera">
+        <option value="Other"></option>
+    </datalist><br>
+    <br>
+    <br>
+
+
+    <form action="">
+        <!-- feildset is used to group related elements in a form -->
+         <fieldset>
+            <legend>User Registrations Form</legend>
+            <label for="username">UserName:</label>
+            <input type="text" name="username" id="username"><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password"><br>
+            <br>
+            <input type="submit" name="" id="">
+
+         </fieldset>
+
+
+
+
+    </form>
+</body>
+</html>
