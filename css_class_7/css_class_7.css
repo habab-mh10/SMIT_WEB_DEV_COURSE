@@ -1,0 +1,133 @@
+/* Links: it have three states */
+/* Link, visited , active */
+/* default link color : blue */
+/* default visited link color : purple */
+/* default active link color : red */
+
+/* for Google links */
+.google:link {
+    color: red;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 3px;
+    margin: 5px;
+    box-shadow: 1px 1px 5px;
+}
+
+.google:visited {
+    color: rgb(122, 163, 240);
+}
+
+.google:active {
+    color: yellow;
+}
+
+.google:hover {
+    text-shadow: 1px 1px 5px;
+    text-decoration: underline;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+/* for Facebook links */
+.Facebook:link {
+    color: rgb(203, 16, 16);
+    text-decoration: none;
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid;
+    box-shadow: 1px 1px 5px;
+}
+
+.Facebook:visited {
+    color: rgb(18, 237, 226);
+}
+
+.Facebook:active {
+    color: yellow;
+}
+
+.Facebook:hover {
+    text-shadow: 1px 1px 5px;
+    text-decoration: underline;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+/* for LinkedIn links */
+.LinkedIn:link {
+    color: rgb(0, 119, 181);
+    text-decoration: none;
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid;
+    box-shadow: 1px 1px 5px;
+}
+
+.LinkedIn:visited {
+    color: rgb(0, 119, 181);
+}
+
+.LinkedIn:active {
+    color: yellow;
+}
+
+.LinkedIn:hover {
+    text-shadow: 1px 1px 5px;
+    text-decoration: underline;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+/* Units in CSS */
+/* two types: absolute and relative */
+
+/* absolute: fixed values */
+/* absolute: px,cm etc (fixed | independent values) */
+/* absolute units: px, pt, pc, in, cm, mm */
+
+/* relative units */
+/* relative to the parent element's font size or the root element's font size */
+/* relative: rem ,em, %, vw, vh (dependent) */
+/* relative units: em, ex, rem, vw, vh, % */
+/* rem: root element - relative to the font size of the root element */
+/* em: relative to the font size of the element itself (work with parent element) */
+
+.container {
+    border: 1px solid darkblue;
+    margin-top: 50px;
+    /* height not take in percentage */
+    /* height: 300px; */
+    /* viewport height is 50% of the browser window's height */
+    height: 50vh;
+    /* fixed width */
+    /* width: 400px; */
+    /* relative width */
+    /* width: 80%; */
+    /* viewport width is 80% of the browser window's width */
+    width: 80vw;
+
+    font-size: 100%;
+    background-color: rgb(194, 236, 242);
+    box-shadow: 5px 5px 5px 5px lightgray;
+}
+
+html {
+    font-size: 20px;
+}
+
+.para {
+    /* font size by default is 16px */
+    /* font-size: 16px; */
+    /* font-size: 1.5rem; */
+    /* font-size: 1rem; */
+    font-size: 2rem;
+    /* font-size: 1.5em; */
+    /* font-size: 0.5em; */
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 2px 5px;
+    background-color: lightblue;
+
+}
