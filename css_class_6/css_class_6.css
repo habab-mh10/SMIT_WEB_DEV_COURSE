@@ -1,0 +1,45 @@
+.Paragraph {
+    border-top: 3px solid black;
+    border-right: 3px solid red;
+    border-bottom: 3px solid blue;
+    border-left: 3px solid green;
+    /* text alignment */
+    /* default value */
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: center; */
+    /* text-align: justify; */
+    /* width: fit-content; */
+
+    /* text decoration */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: none; */
+    /* text-decoration-color: rgb(108, 108, 231); */
+    /* text-decoration-style: none; */
+
+    /*  text transform */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+    /* text-transform: none; */
+
+    /* text spacing */
+    /* text-indent: 50%; */
+    letter-spacing: 1px;
+    /* word-spacing: 10px; */
+    line-height: 20px;
+    white-space: nowrap;
+    /* white-space: pre; */
+
+    /* text shadow */
+    /*text-shadow: horizontal-offset vertical-offset blur-radius color; */
+    text-shadow: 3px 3px 2px rgb(33, 19, 112);
+
+    width: 500px;
+    max-height: 70px;
+    overflow: auto;
+    margin: 20px;
+    padding: 2px;
+}
