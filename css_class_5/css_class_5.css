@@ -1,0 +1,110 @@
+/* Border lines */
+/* border is used to create a border around an element */
+/* .container { */
+/* border: 5px; */
+/* border-style: dashed;
+  border-color: blue; */
+
+/* border: 5px dashed blue; */
+/* border-top: 5px dashed blue; */
+/* border-right: 5px dashed blue; */
+/* border-bottom: 5px dashed blue; */
+/* border-left: 5px dashed blue; */
+/* border-left: 5px solid blue;
+  border-right: 5px solid red;
+  border-top: 5px solid green;
+  border-bottom: 5px solid yellow;
+  border-radius: 10px; */
+/* border:none; */
+/* } */
+
+
+/* Padding */
+/* padding is used to create space inside an element */
+.container {
+  border-top: 20px solid blue;
+  border-right: 20px solid red;
+  border-bottom: 20px solid green;
+  border-left: 20px solid yellow;
+  /* padding-top: 100px;
+  padding-bottom: 200px;
+  padding-left: 100px;
+  padding-right: 500px; */
+  /* padding: 10px; */
+  /* padding: 10px 20px 30px 40px; */
+  padding: 100px 50px;
+
+  /* Border radius is used to create rounded corners */
+  /* border-radius: 10px; */
+  /*  */
+  /* border-radius: 10px 5px 10px 5px; */
+  border-radius: 70px 70px;
+
+  /* Margin is used to create space outside an element */
+  /* margin-top: 200px;
+  margin-bottom: 200px;
+  margin-left: 100px;
+  margin-right: 100px; */
+  margin: 100px 200px;
+  /* margin: 100px 200px 300px 400px; */
+
+  /* Text styles is used to control the appearance of text */
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px rgb(240, 244, 12);
+  font-weight: bold;
+
+  background-color: rgb(146, 147, 98);
+
+}
+
+/* circle is create by setting border-radius to 50% */
+.circle {
+  width: 100px;
+  height: 100px;
+  border-top: 5px solid black;
+  border-right: 5px solid brown;
+  border-bottom: 5px solid green;
+  border-left: 5px solid rgb(220, 21, 38);
+  background-color: rgb(229, 199, 214);
+  /* border-radius: 50px; */
+  border-radius: 50%;
+  padding: 100px;
+  margin: 100px 200px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px rgb(224, 236, 9);
+  font-weight: bold;
+}
+
+/* responsive is used to make the layout adapt to different screen sizes */
+.responsive {
+  border-top: 10px solid blue;
+  border-right: 10px solid red;
+  border-bottom: 10px solid green;
+  border-left: 10px solid yellow;
+  height: 100px;
+  /* width: 500px; */
+  /* max: maximum width */
+  /* min: minimum width */
+  max-width: 500px;
+  min-width: 100px;
+
+  padding: 100px;
+  margin: 100px 200px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-shadow: 2px 2px 5px rgb(240, 244, 12);
+  font-weight: bold;
+  /* background-color: rgb(146, 147, 98); */
+}
+
+/* this topic we learn tomorrow */
+/* .child { */
+/* border: 1px solid; */
+/* height: 100px; */
+/* width: 100%; */
+/* } */
