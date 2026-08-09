@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Class 3 : CSS Rules</title>
+    <link rel="stylesheet" href="css_3.css" />
+  </head>
+  <!-- CSS Rules -->
+  <style>
+    /* Last Rule */
+    /* last rule is used to override previous rules */
+    /* type selectors */
+    h1 {
+      color: red;
+    }
+    h1 {
+      color: blue;
+    }
+    h1 {
+      color: green;
+    }
+    /* ------------------------------------------------------------------------------------ */
+    /* specificity rule */
+    /* type selector has lower priority than id selector */
+    h1 {
+      color: gray !important;
+    }
+    /* id */
+    /* id  selector priority is greater than type selector */
+    #title {
+      color: orange;
+    }
+    /* class selector */
+    /* class selector priority is greater than type selector but less than id selector */
+    .Heading {
+      color: purple;
+    }
+    /* ------------------------------------------------------------------------------------ */
+
+    /* inheritance */
+    /* child element inherits the properties of parent element */
+    .parent {
+      color: brown;
+      border: 1px solid rgb(241, 11, 50);
+      font-size: 20px;
+      font-weight: bold;
+      padding: 5px;
+      font-family: Arial, sans-serif;
+      text-align: left;
+    }
+    p {
+      color: rgb(12, 12, 106);
+      border: inherit;
+    }
+    .child {
+      color: black;
+      border: 1px solid yellow;
+    }
+    /* ------------------------------------------------------------------------------------ */
+    /* colors */
+    /* forground and background colors */
+    .parent {
+      background-color: rgb(142, 101, 101,0.1);
+    }
+
+    p {
+      /* rgb colors */
+      /* red: rgb(255, 0, 0) */
+      /* green: rgb(0, 255, 0) */
+      /* blue: rgb(0, 0, 255) */
+      /* -------------------------------------------------------------------------- */
+      /* hex colors */
+      /* red: #FF0000 */
+      /* green: #00FF00 */
+      /* blue: #0000FF */
+      color: #80cfb8
+    }
+  </style>
+  <body>
+    <h1 class="Heading" id="title">CSS Class 3 : CSS Rules</h1>
+
+    <div class="parent">
+      <p>This is a paragraph inside a div with class "Parent".</p>
+      <div class="child">This is a paragraph.</div>
+    </div>
+  </body>
+</html>
